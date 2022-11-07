@@ -1,0 +1,47 @@
+.articles-container {
+    flex-wrap: wrap;
+}
+
+.article {
+    width: calc(33% - 2rem);
+    margin: 1rem;
+    min-height: 410px;
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    margin-left: 1rem;
+}
+
+.article h3 {
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+}
+
+.article:hover .image-container {
+    transform: scale(1.2);
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.image-container {
+    height: 20rem;
+    background-size: cover;
+    transition: all 0.4s;
+}
+
+.newsfeed-container {
+    flex: 1;
+}
+
+.category-container {
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.category-container li:hover {
+    color: #e74c3c;
+}
